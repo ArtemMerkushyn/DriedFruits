@@ -9,7 +9,7 @@ export const Header = () => {
     const location = useLocation();
     return (
         <header className={styles.header}>
-            <div className={styles.header__wrapper} style={{ maxWidth: '1722px', width: '100%', margin: '0 auto', padding: '0 5px'}}>
+            <div className={styles.header__wrapper} style={{ maxWidth: '1200px', width: '100%', margin: '0 auto', padding: '0 5px'}}>
             <div className={styles.header__item}>
                 <Link to={'/'} className={styles.logo}>
                     <img src='./img/main/logo.svg' alt='logo' />
